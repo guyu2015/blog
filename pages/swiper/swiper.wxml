@@ -1,0 +1,11 @@
+<view>
+<swiper indicator-dots="{{indicatorDots}}" style="width:750rpx; height : 750rpx;"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item  bindtap="bindDetail">
+      <image src="{{item}}" class="slide-image" style="width:750rpx; height : 750rpx;"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+</view>

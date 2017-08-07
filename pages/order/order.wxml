@@ -1,0 +1,4 @@
+<view class="order-wrapper">亲 暂无预约记录，
+请<text class="order-text" bindtap="bindBack">前往预约</text>
+
+</view>

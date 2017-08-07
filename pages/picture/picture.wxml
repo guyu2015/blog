@@ -1,0 +1,17 @@
+<view class="post-wrapper">
+ <view class="first">网点预约</view>
+  <view class="post">
+  <view class="post-one" bindtap="bindRank">
+    <image src="../image/cart1.png" class="post-image" style=" display : block; width:50px;height: 50px;"></image>
+    <text class="post-text" >网点排队</text>
+  </view>
+   <view class="post-one" bindtap="bindScan">
+    <image src="../image/homeico1.png" class="post-image" style="  display : block; width:50px;height: 50px;" ></image>
+    <text class="post-text">扫码支付</text>
+  </view>
+  <view class="post-one" bindtap="bindCall">
+    <image src="../image/stroll1.png" class="post-image" style="  display : block; width:50px;height: 50px;"></image>
+    <text class="post-text">拨打电话</text>
+  </view> 
+</view>
+ </view>

@@ -1,0 +1,10 @@
+<view class="banner-wrapper">
+  <text class="left-title">精选优惠券</text>
+  <text class="right-title">定位失败，默认北京</text>
+<view class="first-banner" bindtap="bindDetail">
+<image src="../image/1.jpg"></image>
+</view>
+<view class="second-banner">
+<image src="../image/2.jpg"></image>
+</view>
+</view>
